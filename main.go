@@ -23,7 +23,7 @@ func main() {
 	client, err := maps.NewClient(maps.WithAPIKey(GMAP_API_KEY))
 	check(err)
 
-	ADDRESS := "aksdj, dke,lakeeje"
+	ADDRESS := "132, Jalan Tamarind, Taman Selatan, 41200 Klang, Selangor"
 	r := &maps.GeocodingRequest{
 		Address:  ADDRESS,
 		Language: "en",
